@@ -1,0 +1,29 @@
+.sp_answers_container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+@media (max-width: 480px) {
+    .sp_answers_container {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.7em;
+        padding: 1em;
+    }
+    .sp_root {
+        width: 100%;
+        font-size: 1.5em;
+    }
+}
+
+.sp_answer {
+    cursor: pointer;
+}
+
+.sp_root {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

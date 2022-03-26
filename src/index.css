@@ -2,7 +2,7 @@
 @import url('http://fonts.cdnfonts.com/css/noteworthy');
 
 html, body {
-    font-family: 'Noteworthy', sans-serif;
+    /* font-family: 'Noteworthy', sans-serif; */
     height: 100%;
     margin: 0;
 }

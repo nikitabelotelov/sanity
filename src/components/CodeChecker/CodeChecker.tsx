@@ -10,6 +10,11 @@ export function CodeChecker(props: IProps) {
     const [value, setValue] = useState('')
     return <>
         <input type="number"
+            onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                    props.onApply(value)
+                }
+            }}
             className="field"
             value={value}
             autoFocus
